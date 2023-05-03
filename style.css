@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+:root {
+    --background_color: black;
+    --font_color:white;
+}
+h1,h4,span,p {
+    color: var(--font_color);
+}
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--background_color);
+    cursor:default;
+}
+.text_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font_inter {
+    font-size: 190px;
+    font-family: 'Inter', sans-serif;
+}
+.font_pt_serif {
+    font-size: 150px;
+    font-family: 'PT Serif', serif;
+}
+
+/* end of landing page */
+
+.font1, .font3, .font5 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: var(--background_color);
+    padding-right: 50px;
+
+}
+.font1 .texts, .font3 .texts , .font5 .texts {
+    height: 70%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.font2, .font4 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 100px;
+    background-color: var(--background_color);
+}
+.font2 .texts, .font4 .texts {
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+p:nth-child(1) {
+    font-size: 65px;
+}
+p:nth-child(2) {
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+p:nth-child(3) {
+    font-size: 26px;
+}
+p:nth-child(4) {
+    font-size: 32px;
+}
+p:nth-child(5) {
+    font-size: 35px;
+}
+
+p:hover{
+    text-transform: uppercase;
+}
+
+.font1 .texts {
+    font-family: 'Oswald', sans-serif;
+}
+.font2 .texts {
+    font-family: 'Montserrat', sans-serif;
+}
+.font3 .texts {
+    font-family: 'Prompt', sans-serif;
+}
+.font4 .texts {
+    font-family: 'Chakra Petch', sans-serif;
+}
+.font5 .texts {
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.montserrat_el200 {
+    font-weight: 200;
+}
+.montserrat_l300i {
+    font-weight: 300;
+    font-style: italic;
+}
+.montserrat_r400 {
+    font-weight: 400;
+}
+.montserrat_sb600{
+    font-weight: 600;
+}
+.montserrat_b900 {
+    font-weight: 900;
+}
+
+.prompt_el200 {
+    font-weight: 200;
+}
+.prompt_l300 {
+    font-weight: 300;
+}
+.prompt_r400 {
+    font-weight: 400;
+}
+.prompt_sb600{
+    font-weight: 600;
+}
+.prompt_b900 {
+    font-weight: 900;
+}
+
+.chakra_petch_l300 {
+    font-weight: 300;
+}
+.chakra_petch_l300i {
+    font-weight: 300;
+    font-style: italic;
+}
+.chakra_petch_r400 {
+    font-weight: 400;
+}
+.chakra_petch_sb600{
+    font-weight: 600;
+}
+.chakra_petch_b700 {
+    font-weight: 700;
+}
+
+.oswald_el200 {
+    font-weight: 200;
+}
+.oswald_l300 {
+    font-weight: 300;
+}
+.oswald_r400 {
+    font-weight: 400;
+}
+.oswald_sb600 {
+    font-weight: 600;
+}
+.oswald_b700 {
+    font-weight: 700;
+}
+
+.outfit_el200 {
+    font-weight: 200;
+}
+.outfit_l300 {
+    font-weight: 300;
+}
+.outfit_r400 {
+    font-weight: 400;
+}
+.outfit_sb600{
+    font-weight: 600;
+}
+.outfit_b900 {
+    font-weight: 900;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background_color);
+    color: var(--font_color);
+    height: 5vh;
+    width: 100%;
+}
+.end h4{
+    font-family: "Outfit";
+    font-weight: 200;
+}
